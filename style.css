@@ -1,0 +1,149 @@
+html {
+    font-family: hero;
+    padding: none;
+    margin: none;
+}
+
+.topImageGame {
+    height: 150px;
+    width: 150px;
+    border: #3882f6 5px solid;
+    border-radius: 5px; 
+}
+
+.logo {
+    margin: 5px;
+}
+
+.imgBanner {
+    height: 200px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;  
+}
+
+h2 {
+    text-align: center;
+}
+
+a, .signUpAndSeals {
+    color: aliceblue;
+}
+
+.logoAndTopgames {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #1f2937; 
+}
+                                                              
+.signupbtn {
+    background-color: #3882f6;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;;
+    font-weight: bold;
+}
+
+.topSellingIndies {
+    background-color: #1f2937;
+}
+
+.topgames {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.signUpAndSeals {
+    display: flex;
+    padding: 60px;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
+.signUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.games {
+    display: flex;
+    gap: 40px;
+    margin: 15px;
+    justify-content: center;
+}
+.games>div>div{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin: 5px;
+}
+
+.devCommentAndAuthor {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.devComment {
+    font-size: 30px;
+    padding: 50px 200px 0px 200px;
+}
+
+.author {
+    text-align: end;
+    padding: 0px 200px 20px 0px ;
+    
+}
+.discountAndSignUp{
+    display: flex;
+    justify-content: center;
+}
+
+.discount {
+    width: 600px;
+}
+.signUpNumberTwo {
+    width: 150px;
+}
+
+.signUpBtnTwo {
+    background-color: transparent;
+    color: #e5e7eb;
+    border: #e5e7eb 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.discount, .signUpNumberTwo {
+    background-color:#3882f6;
+    color: #e5e7eb;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    
+}
+
+.footer {
+    height:50px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: hero;
+    src: url(font/Hero.otf);
+
+}
